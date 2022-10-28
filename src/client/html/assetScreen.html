@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="money.css" rel="stylesheet" type="text/css" /> -->
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <button id="backBtn">&lt;</button><h1>내역</h1>
+    <div id="searchBox">
+        <h3>내역조회</h3>
+        <div>
+          <span class="titleText"> 월별로 조회</span>
+          <input type="month" id="byMonthInput" />
+          <button id="byMonthBtn">월별 조회</button>
+          <button id="totalSearchBtn">전체 조회</button>
+        </div>
+      </div>
+      <table id="assetTable">
+        <thead>
+          <tr>
+            <th>날짜</td>
+            <th>종류</td>
+            <th>분류</td>
+            <th>내용</td>
+            <th>금액</td>
+          </tr>
+        </thead>
+        <tbody id="tableContent">
+        </tbody>
+      </table>
+    </div>
+      <!-- <script type="module" src="./asset/asset.js"></script> -->
+</body>
+</html>
